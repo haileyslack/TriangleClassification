@@ -24,11 +24,3 @@ def classify_triangle(a, b, c):
         triangle_type = triangle_type + " and Right Triangle"
 
     return triangle_type
-
-
-#manual test
-print(classify_triangle(3, 3, 3))
-print(classify_triangle(5, 5, 3))
-print(classify_triangle(4, 5, 6))
-print(classify_triangle(3, 4, 5))
-print(classify_triangle(1, 2, 10))
